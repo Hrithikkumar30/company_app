@@ -18,38 +18,38 @@ class medicineInfo extends StatelessWidget {
           DataTable(
             columns: [
               DataColumn(
-                  label: Text('ID',
+                  label: Text('Medicine Name',
                       style: TextStyle(
                           fontSize: 18, fontWeight: FontWeight.bold))),
               DataColumn(
-                  label: Text('Name',
+                  label: Text('Cost per packet',
                       style: TextStyle(
                           fontSize: 18, fontWeight: FontWeight.bold))),
               DataColumn(
-                  label: Text('Profession',
+                  label: Text('Push Buttons',
                       style: TextStyle(
                           fontSize: 18, fontWeight: FontWeight.bold))),
             ],
             rows: [
               DataRow(cells: [
-                DataCell(TextField(decoration: InputDecoration(hintText: "Medicine Name"),),
-                DataCell(Text('Stephen')),
-                DataCell(Text('Actor')),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Medicine Name"),),),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Rs.400"),),),
+                DataCell(ElevatedButton(onPressed: (){}, child: Text("push"))),
               ]),
               DataRow(cells: [
-                DataCell(Text('5')),
-                DataCell(Text('John')),
-                DataCell(Text('Student')),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Medicine Name"),),),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Rs.400"),),),
+                DataCell(ElevatedButton(onPressed: (){}, child: Text("push"))),
               ]),
               DataRow(cells: [
-                DataCell(Text('10')),
-                DataCell(Text('Harry')),
-                DataCell(Text('Leader')),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Medicine Name"),),),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Rs.400"),),),
+                DataCell(ElevatedButton(onPressed: (){}, child: Text("push"))),
               ]),
               DataRow(cells: [
-                DataCell(Text('15')),
-                DataCell(Text('Peter')),
-                DataCell(Text('Scientist')),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Medicine Name"),),),
+                DataCell(TextField(decoration: InputDecoration(hintText: "Rs.400"),),),
+                DataCell(ElevatedButton(onPressed: (){}, child: Text("push"))),
               ]),
             ],
           ),
